@@ -1,5 +1,5 @@
 # Service Destroyer Results
-The following test Compares Stock vs [Service Destroyer]() vs [Service Destroyer Lite]() on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present.
+The following test Compares Stock vs [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/ServiceDisabler/Service-Destroyer-V1.0.bat) vs [Service Destroyer Lite](https://github.com/QuakedK/Service-Destroyer/releases/download/ServiceDisabler/Service-Destroyer-Lite-V1.0.bat) on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present.
 
 # #1 Stock
 <img width="768" height="584" alt="image" src="https://github.com/user-attachments/assets/488e844d-9ff9-40c6-84c8-283f69ea419e" />
