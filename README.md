@@ -7,10 +7,25 @@ Service Destroyer is specifically designed to disable system services, it doesn'
 
 # #1 Usage
 
-# #2 Usage
+[Service Destroyer]() | 
+The **Regular Version** disables all services, preventing a tons of services from automatically starting, this a great utility for those who simply want to target services! However because a ton of services are disabled, features and functionality is obviously lost. Please Check and read the [Unsupported Features]().
+
+[Service Destroyer Lite]() |
+The **Lite Version** sets all services to manual preventing most services from automatically starting. This a great and simple this is a great alternative for those who don't want to lose functionality or deal with unsupport features.
+
+1. Download and choose your [Service Destroyer](https://github.com/QuakedK/Oneclick/releases/download/optimizer/Oneclick-V7.0.bat) version.
+2. Right-click & run it as admin!
+
+# #2 Revert
+Note: If you created a Restore Point you can just use that <3
+
+1. Open CMD and Paste the following.
+```bat
+reg import "C:\Service Destroyer\Reg Backup\ServicesBackup.reg"
+```
 
 # #3 Results
-The following test was done on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present,
+The following test Compares Stock vs [Service Destroyer]() on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present,
 
 <img width="1540" height="584" alt="New Project (1)" src="https://github.com/user-attachments/assets/4e8c7a90-3b7f-42ef-9b0e-9a8b6c0f8604" />
 
