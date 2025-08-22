@@ -28,7 +28,7 @@ reg import "C:\Service Destroyer\Reg Backup\ServicesBackup.reg"
 The following test Compares Stock vs [Service Destroyer]() on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present.
 Service Destroyer Lite results here -> [Lite Results](https://github.com/QuakedK/Service-Destroyer/blob/main/Results/Results-Comparison.md#3-service-destroyer-lite)
 
-<img width="1540" height="584" alt="New Project (1)" src="https://github.com/user-attachments/assets/4e8c7a90-3b7f-42ef-9b0e-9a8b6c0f8604" />
+<img width="1540" height="584" alt="481076314-4e8c7a90-3b7f-42ef-9b0e-9a8b6c0f8604 (1)" src="https://github.com/user-attachments/assets/c3d58538-7c66-44bd-a185-910aa843e954" />
 
 # #4 Extra Info
 
