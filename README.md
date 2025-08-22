@@ -25,7 +25,7 @@ reg import "C:\Service Destroyer\Reg Backup\ServicesBackup.reg"
 ```
 
 # #3 Results
-The following test Compares Stock vs [Service Destroyer]() on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present,
+The following test Compares Stock vs [Service Destroyer]() on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present.
 
 <img width="1540" height="584" alt="New Project (1)" src="https://github.com/user-attachments/assets/4e8c7a90-3b7f-42ef-9b0e-9a8b6c0f8604" />
 
