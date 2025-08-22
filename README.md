@@ -8,12 +8,12 @@ Service Destroyer is specifically designed to disable system services, it doesn'
 # #1 Usage
 
 [Service Destroyer]() | 
-The **Regular Version** disables all services, preventing a tons of services from automatically starting, this a great utility for those who simply want to target services! However because a ton of services are disabled, features and functionality is obviously lost. Please Check and read the [Unsupported Features]().
+The **Regular Version** disables all services, preventing a tons of services from automatically starting, this a great utility for those who simply want to target services! However because a ton of services are disabled, features and functionality is obviously lost. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Service-Destroyer/blob/main/Unsupported%20Features.md).
 
 [Service Destroyer Lite]() |
 The **Lite Version** sets all services to manual preventing most services from automatically starting. This a great and simple this is a great alternative for those who don't want to lose functionality or deal with unsupport features.
 
-1. Download and choose your [Service Destroyer](https://github.com/QuakedK/Oneclick/releases/download/optimizer/Oneclick-V7.0.bat) version.
+1. Download and choose your [Service Destroyer]() version.
 2. Right-click & run it as admin!
 
 # #2 Revert
