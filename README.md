@@ -16,7 +16,7 @@ The following test was done on 24H2, after idling for 5 mins, having 0 startup a
 
 # #4 Extra Info
 
-**Services that didn't make the cut:**
+**Services that didn't make the cut**:
 ```
 1. Udk User Service.
 Udk User Service slows down searching to a horrible degree, therefore left it's unchanged.
@@ -25,15 +25,37 @@ Udk User Service slows down searching to a horrible degree, therefore left it's 
 When TimeBokerSvc is disabled Task Scheduler breaks, therefore left it's unchanged.
 ```
 
-**Windows Update Services**
+**Windows Update Services**:
 ```
 The following update services get deleted instead of solely being removed since, they tend to reenable themselves.
 
 1. Windows Update Medic Service. - (WaaSMedicSvc)
 2. Windows Update. - (wuauserv)
 3. Update Orchestrator. - (UsoSvc)
-
 ```
 
+**Application Information Service**:
+
+```
+Appinfo Service is responsible for facilitating elevated privilege requests, meaning it allows apps to run as an admin.
+If disabled, apps can't request admin permissions meaning you can't open apps that request administrator.
+However disabling Uac/User Account Control, allows you to get away with disabling AppInfo.
+
+:: UAC Disable.
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /f /v EnableLUA /t REG_DWORD /d 0
+
+:: UAC Enable.
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /f /v EnableLUA /t REG_DWORD /d 1
+```
+
+**Cryptographic Service**:
+```
+CryptSvc checks digital signatures of Windows files, manages root certificates, etc.
+Windows protects this service with WRP (Windows Resource Protection), so it can’t easily be removed or disabled.
+However deleting in the registry works!
+
+:: Delete CryptSvc
+reg delete "HKLM\System\CurrentControlSet\Services\CryptSvc" /f
+```
  
 
