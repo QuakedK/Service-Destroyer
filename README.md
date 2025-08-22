@@ -10,7 +10,7 @@ Service Destroyer is specifically designed to disable system services, it doesn'
 # #2 Usage
 
 # #3 Results
-The following test was done on 24H2, after idling for 5 mins, having 0 startup apps enabled and no bloat removed.
+The following test was done on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present,
 
 <img width="1540" height="584" alt="New Project (1)" src="https://github.com/user-attachments/assets/4e8c7a90-3b7f-42ef-9b0e-9a8b6c0f8604" />
 
