@@ -17,9 +17,17 @@ The **Lite Version** sets all services to manual preventing most services from a
 2. Right-click & run it as admin!
 
 # #2 Revert
-Note: If you created a Restore Point you can just use that <3
 
-1. Open CMD and Paste the following.
+**Restore Point**
+1. Open CMD and paste the following then restart.
+```bat
+sc config EventSystem start=demand
+```
+2. Now Continue and run your Restore Point!
+---
+
+**Reg Backup**
+1. Open CMD and paste the following then restart.
 ```bat
 :: Revert Services.
 reg import "C:\Service Destroyer\Reg Backup\ServicesBackup.reg"
@@ -27,6 +35,12 @@ reg import "C:\Service Destroyer\Reg Backup\ServicesBackup.reg"
 :: Revert SvcHostThreshold.
 reg add "HKLM\SYSTEM\CurrentControlSet\Control" /v SvcHostSplitThresholdInKB /t REG_DWORD /d 3670016 /f
 ```
+> [!NOTE]
+> The reg import command will provide an error, but thats because the Service Destroyer backs up all of the services keys.
+> You won't have sufficient to restore some of the keys hence the error, but the services the program disabled can be restored without problem.
+> Simply ignore the error as the keys you care about should've imported/reverted back to normal!
+
+---
 
 # #3 Results
 The following test Compares Stock vs [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/WindowsServiceDisabler/Service-Destroyer-V1.1.bat) vs [Service Destroyer Lite](https://github.com/QuakedK/Service-Destroyer/releases/download/WindowsServiceDisabler/Service-Destroyer-Lite-V1.1.bat) on 24H2, after idling for 5 mins, having all startup apps disabled and but other Microsoft Bloat is still present.
