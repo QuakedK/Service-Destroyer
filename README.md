@@ -29,10 +29,9 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control" /v SvcHostSplitThresholdInKB /t 
 ```
 
 # #3 Results
-The following test Compares Stock vs [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/WindowsServiceDisabler/Service-Destroyer-V1.1.bat/Service-Destroyer-V1.0.bat) on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present.
-Service Destroyer Lite results here -> [Lite Results](https://github.com/QuakedK/Service-Destroyer/blob/main/Results/Results-Comparison.md#3-service-destroyer-lite)
+The following test Compares Stock vs [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/WindowsServiceDisabler/Service-Destroyer-V1.1.bat) vs [Service Destroyer Lite](https://github.com/QuakedK/Service-Destroyer/releases/download/WindowsServiceDisabler/Service-Destroyer-Lite-V1.1.bat)on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present.
 
-<img width="1540" height="584" alt="481076314-4e8c7a90-3b7f-42ef-9b0e-9a8b6c0f8604 (1)" src="https://github.com/user-attachments/assets/c3d58538-7c66-44bd-a185-910aa843e954" />
+<img width="2290" height="580" alt="New Project" src="https://github.com/user-attachments/assets/d8c9d982-ffeb-4482-90c4-4a8c0e8e7d03" />
 
 # #4 Extra Info
 
