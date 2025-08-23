@@ -7,13 +7,13 @@ Service Destroyer is specifically designed to disable system services, it doesn'
 
 # #1 Usage
 
-[Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/ServiceDisabler/Service-Destroyer-V1.0.bat) | 
+[Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/WindowsServiceDisabler/Service-Destroyer-V1.1.bat) | 
 The **Regular Version** disables all services, preventing a tons of services from automatically starting, this a great utility for those who simply want to target services! However because a ton of services are disabled, features and functionality is obviously lost. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Service-Destroyer/blob/main/Unsupported%20Features.md).
 
-[Service Destroyer Lite](https://github.com/QuakedK/Service-Destroyer/releases/download/ServiceDisabler/Service-Destroyer-Lite-V1.0.bat) |
+[Service Destroyer Lite](https://github.com/QuakedK/Service-Destroyer/releases/download/WindowsServiceDisabler/Service-Destroyer-Lite-V1.1.bat) |
 The **Lite Version** sets all services to manual preventing most services from automatically starting. This a great and simple this is a great alternative for those who don't want to lose functionality or deal with unsupport features.
 
-1. Download and choose your [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/tag/ServiceDisabler) version.
+1. Download and choose your [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/tag/WindowsServiceDisabler) version.
 2. Right-click & run it as admin!
 
 # #2 Revert
@@ -21,11 +21,15 @@ Note: If you created a Restore Point you can just use that <3
 
 1. Open CMD and Paste the following.
 ```bat
+:: Revert Services.
 reg import "C:\Service Destroyer\Reg Backup\ServicesBackup.reg"
+
+:: Revert SvcHostThreshold.
+reg add "HKLM\SYSTEM\CurrentControlSet\Control" /v SvcHostSplitThresholdInKB /t REG_DWORD /d 3670016 /f
 ```
 
 # #3 Results
-The following test Compares Stock vs [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/ServiceDisabler/Service-Destroyer-V1.0.bat) on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present.
+The following test Compares Stock vs [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/WindowsServiceDisabler/Service-Destroyer-V1.1.bat/Service-Destroyer-V1.0.bat) on 24H2, after idling for 5 mins, having all startup apps disabled and but bloat other Microsoft Bloat is still present.
 Service Destroyer Lite results here -> [Lite Results](https://github.com/QuakedK/Service-Destroyer/blob/main/Results/Results-Comparison.md#3-service-destroyer-lite)
 
 <img width="1540" height="584" alt="481076314-4e8c7a90-3b7f-42ef-9b0e-9a8b6c0f8604 (1)" src="https://github.com/user-attachments/assets/c3d58538-7c66-44bd-a185-910aa843e954" />
