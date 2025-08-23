@@ -13,3 +13,15 @@
 - Creates a backup of Services via the registry.
 
 ---
+
+**Service Destroyer V1.1**
+
+8/23/25 <3
+
+*Added?*
+- Added Split SVC code.
+
+*Lite Version*
+- Added Split SVC code.
+
+---
