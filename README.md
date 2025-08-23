@@ -23,7 +23,7 @@ The **Lite Version** sets all services to manual preventing most services from a
 ```bat
 sc config EventSystem start=demand
 ```
-2. Now Continue and run your Restore Point!
+2. Now continue and run your Restore Point!
 ---
 
 **Reg Backup**
