@@ -56,6 +56,15 @@ Udk User Service slows down searching to a horrible degree, therefore left it's 
 
 2. Time Broker Service.
 When TimeBokerSvc is disabled Task Scheduler breaks, therefore left it's unchanged.
+
+3. CNG Key Isolation Service
+When KeyIso is disabled on a Online/Micsoft install of windows it gives PIN unavailable issue. Therefore it's left unchanged!
+
+4. Microsoft Passport Service
+When NgcSvc is disabled on a Online/Micsoft install of windows it gives a blank logon. Therefore it's left unchanged!
+
+5. Microsoft Passport Container Service
+When NgcCtnrSvc is disabled on a Online/Micsoft install of windows it gives a blank logon. Therefore it's left unchanged!
 ```
 
 **Windows Update Services**:
