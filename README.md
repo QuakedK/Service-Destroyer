@@ -9,24 +9,17 @@ Service Destroyer is specifically designed to disable system services, it doesn'
 > [!NOTE]
 > Service Destroyer provides full support for Windows 11, results may differ on older windows versions.
 
-[Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/ServiceDisabler/Service-Destroyer-V1.2.bat) | 
+[Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/ServiceDisabler/Service-Destroyer-V1.3.bat) | 
 The **Regular Version** disables all services, preventing a tons of services from automatically starting, this a great utility for those who simply want to target services! However because a ton of services are disabled, features and functionality is obviously lost. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Service-Destroyer/blob/main/Unsupported%20Features.md).
 
-[Service Destroyer Lite](https://github.com/QuakedK/Service-Destroyer/releases/download/ServiceDisabler/Service-Destroyer-Lite-V1.2.bat) |
+[Service Destroyer Lite](https://github.com/QuakedK/Service-Destroyer/releases/download/ServiceDisabler/Service-Destroyer-Lite-V1.3.bat) |
 The **Lite Version** sets all services to manual preventing most services from automatically starting. This a great and simple this is a great alternative for those who don't want to lose functionality or deal with unsupport features.
 
-1. Download and choose your [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/tag/WindowsServiceDisabler) version.
+1. Download and choose your [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/tag/ServiceDisabler) version.
 2. Right-click & run it as admin!
 
 # #2 Revert
-
-**Restore Point**
-1. Open CMD and paste the following then restart.
-```bat
-sc config EventSystem start=demand
-```
-2. Now continue and run your Restore Point!
----
+Note: If you created a Restore Point you can just use that <3
 
 **Reg Backup**
 1. Open CMD and paste the following then restart.
@@ -67,29 +60,13 @@ When NgcSvc is disabled on a Online/Micsoft install of windows it gives a blank 
 
 5. Microsoft Passport Container Service
 When NgcCtnrSvc is disabled on a Online/Micsoft install of windows it gives a blank logon. Therefore it's left unchanged!
-```
 
-**Windows Update Services**:
-```
-The following update services get deleted instead of solely being removed since, they tend to reenable themselves.
+6. Application Information
+When Appinfo is can't request admin permissions meaning you can't open apps that request administrator.
+However the work around was just to disable UAC but some people will enable it cauing issues
 
-1. Windows Update Medic Service. - (WaaSMedicSvc)
-2. Windows Update. - (wuauserv)
-3. Update Orchestrator. - (UsoSvc)
-```
-
-**Application Information Service**:
-
-```
-Appinfo Service is responsible for facilitating elevated privilege requests, meaning it allows apps to run as an admin.
-If disabled, apps can't request admin permissions meaning you can't open apps that request administrator.
-However disabling Uac/User Account Control, allows you to get away with disabling AppInfo.
-
-:: UAC Disable.
-reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /f /v EnableLUA /t REG_DWORD /d 0
-
-:: UAC Enable.
-reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /f /v EnableLUA /t REG_DWORD /d 1
+7. Other Services...
+Service Destroyer does not use NSudo so for services that need trusted installer privileges to be disabled aren't touched.
 ```
 
 **Cryptographic Service**:
