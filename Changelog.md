@@ -91,3 +91,18 @@
 - Made Eventlog auto to fix this [Problem](https://github.com/QuakedK/Service-Destroyer/issues/3).
 
 ---
+
+**Service Destroyer V1.4**
+
+1/2/25 <3
+
+*Removed*
+- Removed "Spliting svchost.exe processes, based on RAM capacity in KB" code.
+- Removed the deletion of CryptSvc. (Appears to cause, issues with certain Anti-Cheats)
+
+*Added*
+- Added new Split SvcHost code that uses the maximum possible DWORD value, instead of splitting it based on RAM capacity.
+
+*Lite Version*
+- Did nearly all the same changes, that were applicable for that version.
+- Made WlanSVC auto to fix this wifi connection issues.
