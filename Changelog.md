@@ -94,7 +94,7 @@
 
 **Service Destroyer V1.4**
 
-1/2/25 <3
+1/2/26 <3
 
 *Removed*
 - Removed "Spliting svchost.exe processes, based on RAM capacity in KB" code.
