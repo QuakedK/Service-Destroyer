@@ -19,6 +19,8 @@ ___
 # (Wifi)
 
 Service Destroyer disables Wifi, but it can simply be turned on by running the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat) here!
+
+⚠️ **Make sure to download the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat), before run Service Destroyer!**
 ___
 
 # (Snipping Tool)
