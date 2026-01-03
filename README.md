@@ -10,7 +10,7 @@ Service Destroyer is specifically designed to disable system services, it doesn'
 > Service Destroyer provides full support for Windows 11, results may differ on older windows versions.
 
 [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/WinServiceDisabler/Service-Destroyer-V1.4.bat) | 
-The **Regular Version** disables all services, preventing a tons of services from automatically starting, this a great utility for those who simply want to target services! However because a ton of services are disabled, features and functionality is obviously lost. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Service-Destroyer/blob/main/Unsupported%20Features.md).
+The **Regular Version** disables all services, preventing a tons of services from automatically starting, this a great utility for those who simply want to target services! However because a ton of services are disabled, features and functionality is obviously lost. Please check and read the [Unsupported Features](https://github.com/QuakedK/Service-Destroyer/blob/main/Unsupported%20Features.md) and [Fixes](https://github.com/QuakedK/Service-Destroyer/blob/main/Fixes.md) before running the regular version of Service Destroyer.
 
 [Service Destroyer Lite](https://github.com/QuakedK/Service-Destroyer/releases/download/WinServiceDisabler/Service-Destroyer-Lite-V1.4.bat) |
 The **Lite Version** sets all services to manual preventing most services from automatically starting. This a great and simple this is a great alternative for those who don't want to lose functionality or deal with unsupport features.
