@@ -87,5 +87,11 @@ reg delete "HKLM\System\CurrentControlSet\Services\CryptSvc" /f
 :: Revert/Restore CryptSvc
 reg import "C:\CryptSvc\CryptSvcBackup.reg"
 ```
+
+**Newer Services yet to be added**:
+```
+McmSvc - Mobile Connectivity Management Service
+wuqisvc - Microsoft Usage and Quality Insights
+```
  
 
