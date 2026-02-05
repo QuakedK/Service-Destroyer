@@ -92,6 +92,7 @@ reg import "C:\CryptSvc\CryptSvcBackup.reg"
 ```
 McmSvc - Mobile Connectivity Management Service
 wuqisvc - Microsoft Usage and Quality Insights
+midisrv - Windows MIDI Service 
 ```
  
 
