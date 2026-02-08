@@ -44,7 +44,7 @@ The following test Compares Stock vs [Service Destroyer](https://github.com/Quak
 
 # #4 Extra Info
 
-**Services that didn't make the cut**:
+**Services that didn't make the cut**: Lean more here → [Services Docs](https://github.com/QuakedK/Scripting-Station/blob/main/System%20Docs/Services.md)
 ```
 1. Udk User Service.
 Udk User Service slows down searching to a horrible degree, therefore left it's unchanged.
