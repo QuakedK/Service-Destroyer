@@ -66,7 +66,7 @@ When Appinfo is can't request admin permissions meaning you can't open apps that
 However the work around was just to disable UAC but some people will enable it cauing issues
 
 7. DNS Client
-If the DNS Client Service is stopped or disabled, on windows 11 24H2+ and 23H2 via Cumulative Updates then ethernet won't work.
+If the DNS Client Service is disabled, starting on windows 11 24H2+ and now older versions like 23H2-21H2 through Cumulative Updates then ethernet will stop working.
 
 8. Other Services...
 Service Destroyer does not use NSudo so for services that need trusted installer privileges to be disabled aren't touched.
