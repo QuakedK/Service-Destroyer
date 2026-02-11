@@ -65,7 +65,10 @@ When NgcCtnrSvc is disabled on a Online/Micsoft install of windows it gives a bl
 When Appinfo is can't request admin permissions meaning you can't open apps that request administrator.
 However the work around was just to disable UAC but some people will enable it cauing issues
 
-7. Other Services...
+7. DNS Client
+If the DNS Client Service is stopped or disabled, on windows 11 24H2+ and 23H2 via Cumulative Updates then enternet won't work.
+
+8. Other Services...
 Service Destroyer does not use NSudo so for services that need trusted installer privileges to be disabled aren't touched.
 ```
 
