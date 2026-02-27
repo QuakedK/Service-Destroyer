@@ -106,3 +106,37 @@
 *Lite Version*
 - Did nearly all the same changes, that were applicable for that version.
 - Made WlanSVC auto to fix this wifi connection issues.
+
+---
+
+**Service Destroyer V1.5**
+
+2/27/25 <3
+
+*Added*
+- Added a Service Destroyer log.
+- Added Wecsvc service to be disabled. (24H2+)
+- Added McmSvc service to be disabled. (24H2+)
+- Added midisrv service to be disabled. (24H2+)
+- Added appinfo service to be disabled.
+- Added UAC disabler. (Needed if Appinfo service is disabled)
+- Added BluetoothUserService service to be disabled.
+- Added hidserv service to be disabled.
+- Added Wifi Fixer.
+- Added TrustedInstaller Disabler.
+- Added spectrum service to be disabled. (21H2-23H2)
+- Added ANSI Colors.
+
+*Fixed*
+- Fixed the Captial C in Admin check.
+- Fixed "Monitor Switching Back to 60hz" by setting DispBrokerDesktopSvc to auto.
+- Fixed/Updated Restore Point Code.
+- Fixed/Nulled WMPNetworkSvc.
+- Fixed/Nulled BDESVC.
+- Fixed VacSvc now it gets disabled.
+
+*Note*
+- TimeBrokerSvc wasn't added since Task Destroyer isn't in Service Destroyer.
+
+---
+
