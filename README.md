@@ -59,14 +59,10 @@ When NgcSvc is disabled on a Online/Micsoft install of windows it gives a blank 
 5. Microsoft Passport Container Service
 When NgcCtnrSvc is disabled on a Online/Micsoft install of windows it gives a blank logon. Therefore it's left unchanged!
 
-6. Application Information
-When Appinfo is can't request admin permissions meaning you can't open apps that request administrator.
-However the work around was just to disable UAC but some people will enable it cauing issues
-
-7. DNS Client
+6. DNS Client
 If the Dnscache is disabled, starting on windows 11 24H2+ and now older versions like 23H2-21H2 through Cumulative Updates then ethernet will stop working.
 
-8. Other Services...
+7. Other Services...
 Service Destroyer does not use NSudo so for services that need trusted installer privileges to be disabled aren't touched.
 ```
 
@@ -91,9 +87,7 @@ reg import "C:\CryptSvc\CryptSvcBackup.reg"
 
 **Newer Services yet to be added**:
 ```
-McmSvc - Mobile Connectivity Management Service
-wuqisvc - Microsoft Usage and Quality Insights
-midisrv - Windows MIDI Service 
+Blank!
 ```
  
 
