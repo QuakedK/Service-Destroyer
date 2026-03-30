@@ -140,3 +140,19 @@
 
 ---
 
+**Service Destroyer V1.6**
+
+3/29/26 <3
+
+*Added*
+
+*Fixed*
+- Fixed/Changed AppInfo from disabled to manual. (Prevents issues if others re-enable UAC, etc)
+- Fixed/Changed cloudidsvc from manual to disabled.
+
+*Removed*
+- Removed Service Destroyer Logs.
+- Removed AppXSvc Disabler. (Fixes any issue with Notepad++/Left clicking any thing on the desktop, since people don't read the unsupported list)
+- Removed UAC Disabler. 
+
+---
