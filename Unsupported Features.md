@@ -18,7 +18,7 @@ ___
 
 # (Wifi)
 
-Service Destroyer disables Wifi, however it can be re-enabled by running the [Wi-Fi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) located in the End/Extras section of Service Destroyer.
+Service Destroyer disables Wifi, however it can be re-enabled by running the [Wi-Fi Fixer](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Wifi%20Fixer%20V3.5.bat) located in the End/Extras section of Service Destroyer.
 ___
 
 # (Snipping Tool)
@@ -39,5 +39,6 @@ ___
 # (Printing)
 ___
 
-# A shit ton of more things...
+# A shit ton of more things... 
+Read the [Oneclick Unsupported List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md) to get an idea!
 
