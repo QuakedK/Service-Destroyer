@@ -144,8 +144,6 @@
 
 3/29/26 <3
 
-*Added*
-
 *Fixed*
 - Fixed/Changed AppInfo from disabled to manual. (Prevents issues if others re-enable UAC, etc)
 - Fixed/Changed cloudidsvc from manual to disabled.
