@@ -9,11 +9,11 @@ Service Destroyer is specifically designed to disable system services, it doesn'
 > [!NOTE]
 > Service Destroyer provides full support for Windows 11, results may differ on older windows versions.
 
-[Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/WindowsServices/Service-Destroyer-V1.5.bat) | The **Regular Version** disables all services, preventing a tons of services from automatically starting, this a great utility for those who simply want to target services! However because a ton of services are disabled, features and functionality is obviously lost. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Service-Destroyer/blob/main/Unsupported%20Features.md).
+[Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/download/DisableWindowsServices/Service-Destroyer-V1.6.bat) | The **Regular Version** disables all services, preventing a tons of services from automatically starting, this a great utility for those who simply want to target services! However because a ton of services are disabled, features and functionality is obviously lost. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Service-Destroyer/blob/main/Unsupported%20Features.md).
 
-[Service Destroyer Lite](https://github.com/QuakedK/Service-Destroyer/releases/download/WindowsServices/Service-Destroyer-Lite-V1.5.bat) | The **Lite Version** sets all services to manual preventing most services from automatically starting. This a great and simple this is a great alternative for those who don't want to lose functionality or deal with unsupported features.
+[Service Destroyer Lite](https://github.com/QuakedK/Service-Destroyer/releases/download/DisableWindowsServices/Service-Destroyer-Lite-V1.6.bat) | The **Lite Version** sets all services to manual preventing most services from automatically starting. This a great and simple this is a great alternative for those who don't want to lose functionality or deal with unsupported features.
 
-1. Download and choose your [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/tag/WindowsServices) version.
+1. Download and choose your [Service Destroyer](https://github.com/QuakedK/Service-Destroyer/releases/tag/DisableWindowsServices) version.
 2. Right-click & run it as admin!
 
 # #2 Revert
@@ -62,7 +62,13 @@ When NgcCtnrSvc is disabled on a Online/Micsoft install of windows it gives a bl
 6. DNS Client
 If the Dnscache is disabled, starting on windows 11 24H2+ and now older versions like 23H2-21H2 through Cumulative Updates then ethernet will stop working.
 
-7. Other Services...
+7. Appinfo (Still in the code, just set to manual)
+If Application Information is disabled, apps can't request admin permissions meaning you can't open apps that request administrator. However disabling Uac/User Account Control, allows you to get away with disabling AppInfo because with UAC off Windows auto-runs apps with admin rights. Ignoring the request of admin that normally happens when UAC is enabled!
+
+8. AppXSvc (Still in the code, just set to manual only in the lite version)
+If AppX Deployment Service is disabled, it may cause issues with Microsoft Store apps and other Windows components that rely on AppX packages. Notepad++ glitches out explorer causing it refresh when left-click things in windows. Note: (Fixes any issue with Notepad++/Left clicking any thing on the desktop, since people don't read the unsupported list)
+
+9. Other Services...
 Service Destroyer does not use NSudo so for services that need trusted installer privileges to be disabled aren't touched.
 ```
 
